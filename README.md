@@ -1,12 +1,12 @@
-# PaigeCMS
+# P@igeCMS
 
-P@ige CMS is a website CMS/Blogging platform written in [Embarcadero
+P@igeCMS is a website CMS/Blogging platform written in [Embarcadero
 Delphi](https://www.embarcadero.com/products/delphi).
 
 
 ## 3rd Party Components/Libraries
 
-P@ige CMS utilizes a combination of the following 3rd party products:
+P@igeCMS utilizes a combination of the following 3rd party products:
 
 * [AtoZed  IntraWeb 15](https://www.atozed.com/intraweb/)
 * [DevArt's UniDAC](https://www.devart.com/unidac/)
@@ -18,7 +18,7 @@ P@ige CMS utilizes a combination of the following 3rd party products:
 
 ## Database Server
 
-P@ige CMS currently utilizes FireBird 3 as its database server.
+P@igeCMS currently utilizes FireBird 3 as its database server.
 The plan is to eventually allow other DB servers to be utilized.
 Other choices are:
 
@@ -30,7 +30,7 @@ Other choices are:
 
 ## Web Servers / App Servers
 
-P@ige CMS will initially be designed to run on Windows servers
+P@igeCMS will initially be designed to run on Windows servers
 utilizing a combination of IIS ISAPI and standalone http.sys services.
 
 A Linux version is planned as well.
