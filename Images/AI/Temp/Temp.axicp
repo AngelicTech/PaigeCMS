@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AxialisIconCollection>
+  <Name></Name>
+  <Icon>
+    <Name>Freeze</Name>
+    <StockIconName>sheet-highlight-changes.axvi</StockIconName>
+    <StockIconFamily>Axialis Office Pro</StockIconFamily>
+    <StockIconSet>Spreadsheet</StockIconSet>
+    <StockOverlayName></StockOverlayName>
+    <StockOverlayPos>6353818</StockOverlayPos>
+    <ResourceIDValue>100</ResourceIDValue>
+    <ResourceID>ID_SHEET-HIGHLIGHT-CHANGES</ResourceID>
+  </Icon>
+</AxialisIconCollection>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0131019B-37AC-4C8C-960F-BBF34941BEF0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Source\Windows\Security Manager\PgSecurity.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Source\Windows\Admin\PaigeAdmin.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="PgSecurity">
+        <MSBuild Projects="Source\Windows\Security Manager\PgSecurity.dproj"/>
+    </Target>
+    <Target Name="PgSecurity:Clean">
+        <MSBuild Projects="Source\Windows\Security Manager\PgSecurity.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PgSecurity:Make">
+        <MSBuild Projects="Source\Windows\Security Manager\PgSecurity.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PaigeAdmin">
+        <MSBuild Projects="Source\Windows\Admin\PaigeAdmin.dproj"/>
+    </Target>
+    <Target Name="PaigeAdmin:Clean">
+        <MSBuild Projects="Source\Windows\Admin\PaigeAdmin.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PaigeAdmin:Make">
+        <MSBuild Projects="Source\Windows\Admin\PaigeAdmin.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="PgSecurity;PaigeAdmin"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="PgSecurity:Clean;PaigeAdmin:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="PgSecurity:Make;PaigeAdmin:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

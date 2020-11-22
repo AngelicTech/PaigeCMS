@@ -1,0 +1,147 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882' xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882' xmlns:rs='urn:schemas-microsoft-com:rowset' xmlns:z='#RowsetSchema'>
+  <s:Schema id='RowsetSchema'>
+    <s:ElementType name='row' content='eltOnly' rs:updatable='true'>
+      <s:AttributeType name='SkinName' rs:number='1' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='string' dt:maxLength='128' rs:dbtype='str' />
+      </s:AttributeType>
+      <s:AttributeType name='SkinPalette' rs:number='2' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='string' dt:maxLength='128' rs:dbtype='str' />
+      </s:AttributeType>
+      <s:AttributeType name='RibbonSkin' rs:number='3' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='string' dt:maxLength='128' rs:dbtype='str' />
+      </s:AttributeType>
+      <s:AttributeType name='MainIconSet' rs:number='4' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:AttributeType name='QATAboveIconSet' rs:number='5' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:AttributeType name='QATBelowIconSet' rs:number='6' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:AttributeType name='SBIconSet' rs:number='7' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:AttributeType name='TASIconSet' rs:number='8' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:AttributeType name='TATIconSet' rs:number='9' rs:nullable='true' rs:writeunknown='true'>
+        <s:datatype dt:type='i2' dt:maxLength='2' rs:precision='5' />
+      </s:AttributeType>
+      <s:extends type='rs:rowbase' />
+    </s:ElementType>
+  </s:Schema>
+  <rs:data>
+    <z:row SkinName='Basic' SkinPalette='Blue Dark' RibbonSkin='Basic' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Basic' SkinPalette='Default' RibbonSkin='Basic' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Basic' SkinPalette='Pine Dark' RibbonSkin='Basic' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Basic' SkinPalette='Pine Light' RibbonSkin='Basic' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Basic' SkinPalette='Violet Dark' RibbonSkin='Basic' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Basic' SkinPalette='Violet Light' RibbonSkin='Basic' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Blueprint' SkinPalette='Default' RibbonSkin='Blueprint' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Caramel' SkinPalette='Default' RibbonSkin='Caramel' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Coffee' SkinPalette='Default' RibbonSkin='Coffee' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Darkroom' SkinPalette='Default' RibbonSkin='Darkroom' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='DarkSide' SkinPalette='Default' RibbonSkin='DarkSide' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='3' SBIconSet='3' TASIconSet='1' TATIconSet='3' />
+    <z:row SkinName='DevExpressDarkStyle' SkinPalette='Default' RibbonSkin='DevExpressDarkStyle' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='DevExpressStyle' SkinPalette='Default' RibbonSkin='DevExpressStyle' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Foggy' SkinPalette='Default' RibbonSkin='Foggy' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='GlassOceans' SkinPalette='Default' RibbonSkin='GlassOceans' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='HighContrast' SkinPalette='Default' RibbonSkin='HighContrast' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='iMaginary' SkinPalette='Default' RibbonSkin='iMaginary' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Lilian' SkinPalette='Default' RibbonSkin='Lilian' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='LiquidSky' SkinPalette='Default' RibbonSkin='LiquidSky' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='LondonLiquidSky' SkinPalette='Default' RibbonSkin='LondonLiquidSky' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='McSkin' SkinPalette='Default' RibbonSkin='McSkin' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='3' />
+    <z:row SkinName='Metropolis' SkinPalette='Default' RibbonSkin='Metropolis' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='MetropolisDark' SkinPalette='Default' RibbonSkin='MetropolisDark' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='MoneyTwins' SkinPalette='Default' RibbonSkin='MoneyTwins' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2007Black' SkinPalette='Default' RibbonSkin='Office2007Black' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='2' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2007Blue' SkinPalette='Default' RibbonSkin='Office2007Blue' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2007Green' SkinPalette='Default' RibbonSkin='Office2007Green' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2007Pink' SkinPalette='Default' RibbonSkin='Office2007Pink' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2007Silver' SkinPalette='Default' RibbonSkin='Office2007Silver' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2010Black' SkinPalette='Default' RibbonSkin='Office2010Black' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2010Blue' SkinPalette='Default' RibbonSkin='Office2010Blue' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2010Silver' SkinPalette='Default' RibbonSkin='Office2010Silver' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2013DarkGray' SkinPalette='Default' RibbonSkin='Office2013DarkGray' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2013LightGray' SkinPalette='Default' RibbonSkin='Office2013LightGray' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2013White' SkinPalette='Default' RibbonSkin='Office2013White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2016Colorful' SkinPalette='Default' RibbonSkin='Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2016Dark' SkinPalette='Default' RibbonSkin='Office2016Dark' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Amber' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Default' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Fire Brick' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Forest' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Pine' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Plum' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Black' SkinPalette='Yale' RibbonSkin='Office2019Black' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Amber' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Default' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Fire Brick' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Forest' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Pine' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Plum' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019Colorful' SkinPalette='Yale' RibbonSkin='Office2019Colorful' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Amber' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Default' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Fire Brick' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Forest' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Pine' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Plum' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019DarkGray' SkinPalette='Yale' RibbonSkin='Office2019DarkGray' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Amber' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Default' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Fire Brick' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Forest' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Pine' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Plum' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Office2019White' SkinPalette='Yale' RibbonSkin='Office2019White' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Pumpkin' SkinPalette='Default' RibbonSkin='Pumpkin' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='3' SBIconSet='3' TASIconSet='1' TATIconSet='3' />
+    <z:row SkinName='Seven' SkinPalette='Default' RibbonSkin='Seven' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='SevenClassic' SkinPalette='Default' RibbonSkin='SevenClassic' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Sharp' SkinPalette='Default' RibbonSkin='Sharp' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='SharpPlus' SkinPalette='Default' RibbonSkin='SharpPlus' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Springtime' SkinPalette='Default' RibbonSkin='Springtime' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='2' />
+    <z:row SkinName='Stardust' SkinPalette='Default' RibbonSkin='Stardust' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='Summer2008' SkinPalette='Default' RibbonSkin='Summer2008' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='TheAsphaltWorld' SkinPalette='Default' RibbonSkin='TheAsphaltWorld' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='TheBezier' SkinPalette='Aquarelle' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Art House' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='1' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Blackberry Shake' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Blue Velvet' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='TheBezier' SkinPalette='BW' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='1' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Cherry Ink' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Crambe' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Dark Turquoise' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='1' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Date Fruit' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Default' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Dragonfly' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='TheBezier' SkinPalette='Fireball' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Ghost Shark' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Gloom Gloom' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Grasshopper' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Leaf Rustle' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='2' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Mercury Ice' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Milk Snake' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Moray Eel' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Nebula' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Neon Lollipop' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='TheBezier' SkinPalette='Norwegian Wood' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Oxygen 3' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='2' QATBelowIconSet='2' SBIconSet='2' TASIconSet='2' TATIconSet='2' />
+    <z:row SkinName='TheBezier' SkinPalette='Plastic Space' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Prometheus' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Starshine' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Tokyo' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='2' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Vacuum' RibbonSkin='TheBezier' MainIconSet='1' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Volcano' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='TheBezier' SkinPalette='Witch Rave' RibbonSkin='TheBezier' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Valentine' SkinPalette='Default' RibbonSkin='Valentine' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='1' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='VisualStudio2013Blue' SkinPalette='Default' RibbonSkin='VisualStudio2013Blue' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='VisualStudio2013Dark' SkinPalette='Default' RibbonSkin='VisualStudio2013Dark' MainIconSet='3' QATAboveIconSet='3' QATBelowIconSet='3' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='VisualStudio2013Light' SkinPalette='Default' RibbonSkin='VisualStudio2013Light' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='1' TATIconSet='1' />
+    <z:row SkinName='VS2010' SkinPalette='Default' RibbonSkin='VS2010' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='3' TASIconSet='3' TATIconSet='3' />
+    <z:row SkinName='Whiteprint' SkinPalette='Default' RibbonSkin='Whiteprint' MainIconSet='2' QATAboveIconSet='2' QATBelowIconSet='2' SBIconSet='2' TASIconSet='2' TATIconSet='2' />
+    <z:row SkinName='Xmas2008Blue' SkinPalette='Default' RibbonSkin='Xmas2008Blue' MainIconSet='1' QATAboveIconSet='1' QATBelowIconSet='1' SBIconSet='2' TASIconSet='1' TATIconSet='1' />
+  </rs:data>
+</xml>
