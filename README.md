@@ -41,7 +41,7 @@ A Linux version is planned as well.
 The database tables/fields are encrypted, where necessary, on the fly by
 utilizing UniDAC's encryption capabilities.
 
-The backend administration utilities are designed as desktop
+The backend administration utilities are designed as desktop / mobile
 applications to help minimize security risks / unauthorized logins.
 It will be possible to run them as web applications utilizing
 virtualization technologies.
