@@ -1,7 +1,7 @@
 # PaigeCMS
 
-P@ige CMS is a website CMS/Blogging platform written in Embarcadero
-Delphi.
+P@ige CMS is a website CMS/Blogging platform written in [Embarcadero
+Delphi](https://www.embarcadero.com/products/delphi).
 
 
 ## 3rd Party Components/Libraries
